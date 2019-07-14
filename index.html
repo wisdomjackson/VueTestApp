@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<title>Hello VueJS</title>
+
+		<script src="vue.min.js"></script>
+
+</head>
+<body>
+				<h1>Vue Instance</h1>
+
+<div id="vue-app-one">
+	<h1>{{title}}</h1>
+	<h1>{{name}}</h1>
+	<p><h1>{{greet}}</h1></p>
+</div>
+
+
+<div id="vue-app-two">
+	<h1> {{title}} </h1>
+		<h1> {{Sname}} </h1>
+	<h1> {{greet}} </h1>
+	<button v-on:click="changeTitle"> Change App One Title</button>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
